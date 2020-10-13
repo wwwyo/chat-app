@@ -8,15 +8,40 @@ background-color: #253141;
 width: 300px;
 height: 100vh;
 }
+
 .left_top {
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.user_name a {
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+.chatroom_create a {
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+} 
+
 .left_bottom {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+.chatroom_name {
+  padding: 20px 0 40px;
+}
+.chatroom_name a{
+  text-decoration: none;
+  color: white;
 }
 
 /* 右のビュー */
