@@ -2,7 +2,7 @@
   <div class="left_content">
     <div class="left_top">
       <div  class="user_name">
-        <a href="">user</a>
+        <%= link_to(current_user.name,  edit_user_path(current_user)) %>
       </div>
       <div class=chatroom_create>
         <a href="">チャットを作成する</a>
