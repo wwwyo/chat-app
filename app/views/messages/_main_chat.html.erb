@@ -11,24 +11,8 @@
     </div>
 
     <div class="right_main">
-      <div class="comment_info">
-        <div class="comment_top">
-          <p class="comment_user">TOM</p>
-          <p class="comment_date">2020/3/31(Wed) 12:43:30</p>
-        </div>  
-        <div class="comment">
-          <p>おはよう</p>
-        </div>
-      </div>
-      <div class="comment_info">
-        <div class="comment_top">
-          <div class="comment_user">TOM</div>
-          <div class="comment_date">2020/3/31(Wed) 12:43:30</div>
-        </div>  
-        <div class="comment">
-          <p>おはよう</p>
-        </div>
-      </div>
+      <%= render partial: "message", collection: @messages %>
+     
     </div>
     
 
